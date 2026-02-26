@@ -10,7 +10,7 @@ abstract class SondaEspacial {
         id += 1;
     }
 
-    abstract void coletarDados();
+    public abstract void coletarDados(String dado);
 
     protected void consumirEnergia(int quantidade){
         combustivel = quantidade;
