@@ -8,7 +8,7 @@ public abstract class Diagnostico{
 
     Diagnostico(){
         contadorExames++;
-        paciente = new Paciente();
+        this.paciente = new Paciente();
 
     }
 
